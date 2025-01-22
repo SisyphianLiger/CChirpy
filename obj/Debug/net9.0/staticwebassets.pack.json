@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "Id": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/assets/logo.png",
       "PackagePath": "staticwebassets/assets/logo.png"
     },
     {
-      "Id": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "Id": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {

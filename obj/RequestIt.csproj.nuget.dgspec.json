@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ryanmac/Desktop/10.CSharp/RequestIt/RequestIt.csproj": {}
+    "/Users/ryanmac/Desktop/10.CSharp/CChirpy/RequestIt.csproj": {}
   },
   "projects": {
-    "/Users/ryanmac/Desktop/10.CSharp/RequestIt/RequestIt.csproj": {
+    "/Users/ryanmac/Desktop/10.CSharp/CChirpy/RequestIt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/RequestIt.csproj",
+        "projectUniqueName": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/RequestIt.csproj",
         "projectName": "RequestIt",
-        "projectPath": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/RequestIt.csproj",
+        "projectPath": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/RequestIt.csproj",
         "packagesPath": "/Users/ryanmac/.nuget/packages/",
-        "outputPath": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/",
+        "outputPath": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ryanmac/.nuget/NuGet/NuGet.Config"

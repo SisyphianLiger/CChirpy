@@ -9,7 +9,8 @@ namespace StaticFile.Controllers
     public class StaticFileController : ControllerBase
     {
         [HttpGet("app/assets")]
-        public ActionResult<string> GetChirpyAsHtml() {
+        public ActionResult<string> GetChirpyAsHtml()
+        {
             var body = "<pre>\n<a href=\"logo.png\">logo.png</a>\n</pre>";
             return Content(body, "text/html");
         }

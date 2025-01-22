@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZPUrn+Kr4Iu+II1xjso/GkTENhDEBmojFi7Xpbkz+H4=",
+  "Hash": "UgD7EPwqIqYz0VP4snwT2LE1btUHIdqPp+yPJcbJCbQ=",
   "Source": "RequestIt",
   "BasePath": "_content/RequestIt",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RequestIt/wwwroot",
       "Source": "RequestIt",
-      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/",
       "BasePath": "_content/RequestIt",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "Identity": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
       "SourceId": "RequestIt",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/RequestIt",
       "RelativePath": "index#[.{fingerprint=gr0tg4gikq}]?.html.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "RelatedAsset": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "gwbde441os",
       "Integrity": "gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html"
+      "OriginalItemSpec": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/index.html"
     },
     {
-      "Identity": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "Identity": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/assets/logo.png",
       "SourceId": "RequestIt",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/",
       "BasePath": "_content/RequestIt",
       "RelativePath": "assets/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot/assets/logo.png"
     },
     {
-      "Identity": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "Identity": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/index.html",
       "SourceId": "RequestIt",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/",
       "BasePath": "_content/RequestIt",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -83,7 +83,7 @@
   "Endpoints": [
     {
       "Route": "assets/logo.ituo2fv3hf.png",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/assets/logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -128,7 +128,7 @@
     },
     {
       "Route": "assets/logo.png",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/assets/logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -165,7 +165,7 @@
     },
     {
       "Route": "index.gr0tg4gikq.html",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -228,7 +228,7 @@
     },
     {
       "Route": "index.gr0tg4gikq.html",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -273,7 +273,7 @@
     },
     {
       "Route": "index.gr0tg4gikq.html.gz",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -326,7 +326,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -381,7 +381,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -418,7 +418,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
