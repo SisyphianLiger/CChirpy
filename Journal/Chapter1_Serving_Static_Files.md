@@ -120,4 +120,35 @@ I've gotten a bit ahead of my self, you can view this main as two parts, configu
 So all in all, very similar, but this is static files, not really so fun! Up next will be routing!
 
 
+### PS a word about serving a static logo
+So I needed to be a bit advanced when it came to serving a static png because of the following requirement in the lesson. In Golang, it appears that `FileSystem` handler creates html to be displayed to the dom as the following:
 
+```html
+<pre> <a href="logo.png">logo.png</a> </pre>
+```
+
+There is an automatic way to do this in C\# as well...but well...it produces ALOT more html for a simple picture. So with my knowledge of routing I decided to make a seperate class `StaticFileController`, that would serve this file specifically. Here is the snippet of code from it.
+
+```cs
+    // Here we are defining out Handlers
+    namespace StaticFile.Controllers
+    {
+        [ApiController]
+        [Route("/")]
+        public class StaticFileController : ControllerBase
+        {
+            [HttpGet("app/assets")]
+            public ActionResult<string> GetChirpyAsHtml()
+            {
+                var body = "<pre>\n<a href=\"logo.png\">logo.png</a>\n</pre>";
+                return Content(body, "text/html");
+            }
+        }
+    }
+```
+
+There are a couple of cool features here that I was happy to explore, but this is a bit of a spoiler. IT would seem the interface here, `ControllerBase` takes care of a lot of the repetitive code with `* Request` Golang has. Meaning that within this method, I am able to freely access `Response`, check the body, set the header etc. Also, within this interface there is a Content, which can both Respond with a body, and the Content Type. So, I decided the "quick fix" would be to make some custom html, as a string that matched the html previously, and add that to the route `/app/assets/` given that was the endpoint of our wonderful bird logo.
+
+There are some more stuff I want to talk about and explore with this router, but I just wanted to let the user know what was going on in those response sections. 
+
+Anyways, that concludes chapter1! Stay tuned for Chapter 2!.
