@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.RequestIt.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.RequestIt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.RequestIt.props",
+      "PackagePath": "build\\RequestIt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.RequestIt.props",
+      "PackagePath": "buildMultiTargeting\\RequestIt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.RequestIt.props",
+      "PackagePath": "buildTransitive\\RequestIt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

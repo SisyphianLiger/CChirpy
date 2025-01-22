@@ -1,0 +1,465 @@
+{
+  "Version": 1,
+  "Hash": "ZPUrn+Kr4Iu+II1xjso/GkTENhDEBmojFi7Xpbkz+H4=",
+  "Source": "RequestIt",
+  "BasePath": "_content/RequestIt",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RequestIt/wwwroot",
+      "Source": "RequestIt",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/",
+      "BasePath": "_content/RequestIt",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "SourceId": "RequestIt",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/RequestIt",
+      "RelativePath": "index#[.{fingerprint=gr0tg4gikq}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gwbde441os",
+      "Integrity": "gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "SourceId": "RequestIt",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/",
+      "BasePath": "_content/RequestIt",
+      "RelativePath": "assets/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ituo2fv3hf",
+      "Integrity": "BkAP/Lz51IFedUQnA05fOKfivCF75RflajV/oo6xE+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/logo.png"
+    },
+    {
+      "Identity": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "SourceId": "RequestIt",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/",
+      "BasePath": "_content/RequestIt",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gr0tg4gikq",
+      "Integrity": "5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/logo.ituo2fv3hf.png",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BkAP/Lz51IFedUQnA05fOKfivCF75RflajV/oo6xE+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 11:00:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ituo2fv3hf"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkAP/Lz51IFedUQnA05fOKfivCF75RflajV/oo6xE+0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/logo.png",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/assets/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BkAP/Lz51IFedUQnA05fOKfivCF75RflajV/oo6xE+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 11:00:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkAP/Lz51IFedUQnA05fOKfivCF75RflajV/oo6xE+0="
+        }
+      ]
+    },
+    {
+      "Route": "index.gr0tg4gikq.html",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.013888888889"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 10:05:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr0tg4gikq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.gr0tg4gikq.html",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 10:05:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr0tg4gikq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.gr0tg4gikq.html.gz",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 10:05:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr0tg4gikq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.013888888889"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 10:05:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 10:05:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5DbZD6dOzyHhXCcPlg7mrvWWnnnIIfIUOr+cNv5z7TQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/ryanmac/Desktop/10.CSharp/RequestIt/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 10:05:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gFvtjh2k4a0Pj8jKq1h93RNlzVGILLHQXjahLrSabPI="
+        }
+      ]
+    }
+  ]
+}
