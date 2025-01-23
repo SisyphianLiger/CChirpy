@@ -1,6 +1,3 @@
-// using Microsoft.Extensions.FileProviders;
-// using Microsoft.AspNetCore.StaticFiles;
-
 class Program
 {
 
@@ -14,6 +11,10 @@ class Program
         // Addes the controllers from the modlers folder
         builder.Services.AddControllers();
 
+        // Dependency Injection...container
+        builder.Services.AddTransient<MetricsMiddleware>();
+
+
         // Adds Options to the Configuration
         builder.WebHost.ConfigureKestrel(options =>
         {
@@ -24,15 +25,16 @@ class Program
         // Builds Server (now read only)
         var app = builder.Build();
 
+        var useFileServer = new FileServerOptions();
+        useFileServer.RequestPath = "/app";
+        app.UseFileServer(useFileServer);
+
+
         // Mapping all controllers
         app.MapControllers();
 
-        // Configure DefaultFilesOptions with the same path
-        var defaultFilesOptions = new DefaultFilesOptions();
-        defaultFilesOptions.RequestPath = "/app";
-
-        app.UseDefaultFiles(defaultFilesOptions);
-
+        // Use Middleware
+        app.UseMiddleware<MetricsMiddleware>();
 
         // Handle Errors is not in development
         if (!app.Environment.IsDevelopment())
@@ -40,7 +42,6 @@ class Program
             app.UseExceptionHandler("/Error");
             app.UseHsts();
         }
-
 
         app.Run();
 

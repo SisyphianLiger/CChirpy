@@ -61,7 +61,6 @@
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/RequestIt.MvcApplicationPartsAssemblyInfo.cache
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/RequestIt.sourcelink.json
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/scopedcss/bundle/RequestIt.styles.css
-/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/staticwebassets.build.json
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/staticwebassets.development.json
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -77,3 +76,4 @@
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/RequestIt.pdb
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/RequestIt.genruntimeconfig.cache
 /Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/ref/RequestIt.dll
+/Users/ryanmac/Desktop/10.CSharp/CChirpy/obj/Debug/net9.0/compressed/5ms03ohn36-gr0tg4gikq.gz
