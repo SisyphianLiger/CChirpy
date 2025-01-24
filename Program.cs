@@ -2,7 +2,6 @@ class Program
 {
 
 
-
     public static void Main(string[] args)
     {
         // Declares a WebApplication Class
@@ -12,7 +11,13 @@ class Program
         builder.Services.AddControllers();
 
         // Dependency Injection...container
-        builder.Services.AddTransient<MetricsMiddleware>();
+        /*
+         * Lets talk about singletons here. Because this class is only counting the amount of 
+         * Hits, we actually want it to persist throughout the entierty of our program. Thus we 
+         * use the Singleton service here to ensure that this program will exist until the server
+         * stops.
+         * */
+        builder.Services.AddSingleton<MetricsMiddleware>();
 
 
         // Adds Options to the Configuration

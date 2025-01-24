@@ -1,7 +1,7 @@
 public class MetricsMiddleware : IMiddleware
 {
 
-    private static long _counter = 0;
+    private long _counter = 0;
 
     private void TrackWebsiteHits()
     {

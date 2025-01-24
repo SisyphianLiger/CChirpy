@@ -11,9 +11,10 @@ public class StaticFileController : ControllerBase
     [HttpGet("assets")]
     public ActionResult<string> GetChirpyAsHtml()
     {
-        // Get the path to wwwroot/assets/logo.png
-        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "assets", "logo.png");
-        return PhysicalFile(filePath, "image/png");
+
+        var body = "<a href=\"logo.png\">logo.png</a>";
+        return Content(body, "text/html");
+
     }
     [HttpGet]
     public ActionResult GetChirpyHomePage()
