@@ -18,6 +18,7 @@ class Program
          * stops.
          * */
         builder.Services.AddSingleton<MetricsMiddleware>();
+        builder.Services.AddScoped<IChirpValidator, ChirpValidator>();
 
 
         // Adds Options to the Configuration
