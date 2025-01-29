@@ -1,30 +1,50 @@
+using Utilities;
+using PostgresDB;
+
+
 class Program
 {
 
-
     public static void Main(string[] args)
     {
+        // Connection String for Postgres     
+        var cfg = new ConfigurationAccess();
+
+
+        if (cfg.MigrateDB)
+        {
+            MigrationScript.MigrateDB(cfg.DbUrl);
+        }
+
         // Declares a WebApplication Class
         var builder = WebApplication.CreateBuilder(args);
+
+        // Create and verify database connection
+        var db = new ChirpyDatabase(cfg.DbUrl, cfg.DevMode);
+        try
+        {
+            db.OpenAsync().GetAwaiter(); // Make sure your ChirpyDatabase has this method
+            builder.Services.AddSingleton<ChirpyDatabase>((_) => db);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to connect to database: {ex.Message}");
+            throw; // This will prevent the application from starting if DB connection fails
+        }
 
         // Addes the controllers from the modlers folder
         builder.Services.AddControllers();
 
-        // Dependency Injection...container
-        /*
-         * Lets talk about singletons here. Because this class is only counting the amount of 
-         * Hits, we actually want it to persist throughout the entierty of our program. Thus we 
-         * use the Singleton service here to ensure that this program will exist until the server
-         * stops.
-         * */
+        // Singletons that keep track of items
         builder.Services.AddSingleton<MetricsMiddleware>();
         builder.Services.AddScoped<IChirpValidator, ChirpValidator>();
+
 
 
         // Adds Options to the Configuration
         builder.WebHost.ConfigureKestrel(options =>
         {
-            options.ListenLocalhost(8080);
+            options.ListenLocalhost(cfg.LocalHost);
         }
                 );
 
@@ -50,6 +70,5 @@ class Program
         }
 
         app.Run();
-
     }
 }

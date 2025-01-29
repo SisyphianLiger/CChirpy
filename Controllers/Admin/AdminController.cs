@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using PostgresDB;
 
 
 // Here we are defining out Handlers
@@ -8,11 +9,12 @@ namespace Admin.Controllers;
 [Route("admin")]
 public class AdminController : ControllerBase
 {
-
+    private readonly ChirpyDatabase _chirpydb;
     private readonly MetricsMiddleware _metrics;
 
-    public AdminController(MetricsMiddleware metrics)
+    public AdminController(MetricsMiddleware metrics, ChirpyDatabase chirpydb)
     {
+        _chirpydb = chirpydb;
         _metrics = metrics;
     }
 
@@ -25,10 +27,17 @@ public class AdminController : ControllerBase
         return Content(body, "text/html");
     }
 
+
     [HttpPost("reset")]
-    public IActionResult ResetMetrics()
+    public async Task<IActionResult> ResetMetric()
     {
-        _metrics.ResetCounter();
-        return Ok();
+        var DevMode = _chirpydb.DevDB;
+        return (DevMode, await _chirpydb.DeleteAllUsers()) switch
+        {
+            (false, _) => StatusCode(StatusCodes.Status403Forbidden),
+            (true, true) => StatusCode(StatusCodes.Status200OK),
+            (true, false) => StatusCode(StatusCodes.Status500InternalServerError)
+        };
     }
+
 }

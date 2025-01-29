@@ -8,11 +8,11 @@ public interface IChirpValidator
 public class ChirpValidator : IChirpValidator
 {
 
-    private List<string> listOfBannedWords = new List<string> 
-    { 
-        "kerfuffle", 
-        "sharbert", 
-        "fornax" 
+    private List<string> listOfBannedWords = new List<string>
+    {
+        "kerfuffle",
+        "sharbert",
+        "fornax"
     };
 
     public bool isValid(string chirp)
@@ -20,9 +20,11 @@ public class ChirpValidator : IChirpValidator
         return chirp.Length <= 140;
     }
 
-    public string cleanedBody(string? chirp) {
+    public string cleanedBody(string? chirp)
+    {
 
-        if (chirp == null) {
+        if (chirp == null)
+        {
             return "";
         }
 

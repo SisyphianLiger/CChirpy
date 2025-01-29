@@ -1,7 +1,11 @@
 using System.Text.Json.Serialization;
 
-public class ChirpResponse
+namespace PostgresDB;
+
+
+public class User
 {
+
     [JsonPropertyName("id")]
     public Guid Id { get; set; }
 
@@ -11,9 +15,9 @@ public class ChirpResponse
     [JsonPropertyName("updated_at")]
     public DateTime UpdatedAt { get; set; }
 
-    [JsonPropertyName("body")]
-    public string? Body { get; set; }
+    [JsonPropertyName("email")]
+    public string? Email { get; set; }
 
-    [JsonPropertyName("user_id")]
-    public Guid UserId { get; set; }
+    public User() { }
+
 }
