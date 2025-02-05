@@ -18,6 +18,12 @@ public class User
     [JsonPropertyName("email")]
     public string? Email { get; set; }
 
+    [JsonPropertyName("hashed_password")]
+    public string? HashedPassword { get; set; }
+
+    [JsonPropertyName("is_chirpy_red")]
+    public bool isChirpyRed { get; set; }
+
     public User() { }
 
 }

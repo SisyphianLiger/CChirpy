@@ -11,6 +11,8 @@ public class ConfigurationAccess
     public bool DevMode { get; private set; }
     public int LocalHost { get; private set; }
     public bool MigrateDB { get; private set; }
+    public string JwtSecret { get; private set; }
+    public string PolkaKey { get; private set; }
 
     public ConfigurationAccess()
     {
@@ -19,6 +21,8 @@ public class ConfigurationAccess
         DevMode = CheckForValidEnvVariable<bool>("DEV");
         LocalHost = CheckForValidEnvVariable<int>("LOCALHOST");
         MigrateDB = CheckForValidEnvVariable<bool>("MIGRATE_DATABASE");
+        JwtSecret = CheckForValidEnvVariable<string>("JWT_SECRET");
+        PolkaKey = CheckForValidEnvVariable<string>("POLKA_KEY");
 
     }
 
